@@ -1,11 +1,11 @@
 Commercial Angler
 -----------------
 
-		Nobly, nobly Cape Saint Vincent to the North-west died away;
-		Sunset ran, one glorious blood-red, reeking into Cadiz Bay;
-		Bluish 'mid the burning water, full in face Trafalgar lay;
+  Nobly, nobly Cape Saint Vincent to the North-west died away;
+  Sunset ran, one glorious blood-red, reeking into Cadiz Bay;
+  Bluish 'mid the burning water, full in face Trafalgar lay;
 
-								 Home Thoughts, from the Sea - Robert Browning 
+                                 Home Thoughts, from the Sea - Robert Browning 
 
 Overview
 --------
@@ -84,7 +84,7 @@ Forthcoming features: Loading and saving your game, custom character naming.
 Other possible future features: Improved graphics, RPG-like elements such as 
 player levels and stats, end-game bosses, ability to eat fish, drop tables 
 besides just corpses, confirmation beeps when buying stuff, uploading memorial 
-files to a web-based CGI script.
+files to a web-based CGI script, and maybe a rewrite in a different language.
 
 Credits
 -------
