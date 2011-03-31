@@ -1,0 +1,226 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E34F7337-B4CC-46E8-BCCC-C60F8439DFB9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>commercial_angler</RootNamespace>
+    <AssemblyName>commercial_angler</AssemblyName>
+    <ApplicationIcon>angler.ico</ApplicationIcon>
+    <PublishUrl>http://localhost/commercial_angler/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>0.1.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Character.cs" />
+    <Compile Include="FactoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactoryForm.Designer.cs">
+      <DependentUpon>FactoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish.cs" />
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Angler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactoryForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FactoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="angler.dat">
+    </EmbeddedResource>
+    <EmbeddedResource Include="shipyardForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>shipyardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+    </None>
+    <None Include="COPYING" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="README" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Ship.cs" />
+    <Compile Include="shipyardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shipyardForm.Designer.cs">
+      <DependentUpon>shipyardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weapon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="img\ship1.bmp" />
+    <EmbeddedResource Include="img\ship10.bmp" />
+    <EmbeddedResource Include="img\ship11.bmp" />
+    <EmbeddedResource Include="img\ship12.bmp" />
+    <EmbeddedResource Include="img\ship13.bmp" />
+    <EmbeddedResource Include="img\ship14.bmp" />
+    <EmbeddedResource Include="img\ship15.bmp" />
+    <EmbeddedResource Include="img\ship16.bmp" />
+    <EmbeddedResource Include="img\ship17.bmp" />
+    <EmbeddedResource Include="img\ship18.bmp" />
+    <EmbeddedResource Include="img\ship19.bmp" />
+    <EmbeddedResource Include="img\ship2.bmp" />
+    <EmbeddedResource Include="img\ship20.bmp" />
+    <EmbeddedResource Include="img\ship21.bmp" />
+    <EmbeddedResource Include="img\ship22.bmp" />
+    <EmbeddedResource Include="img\ship3.bmp" />
+    <EmbeddedResource Include="img\ship4.bmp" />
+    <EmbeddedResource Include="img\ship5.bmp" />
+    <EmbeddedResource Include="img\ship6.bmp" />
+    <EmbeddedResource Include="img\ship7.bmp" />
+    <EmbeddedResource Include="img\ship8.bmp" />
+    <EmbeddedResource Include="img\ship9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="img\blood.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="img\water1.bmp" />
+    <EmbeddedResource Include="img\water2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="img\port.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="img\about.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="img\attack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="angler.ico" />
+    <EmbeddedResource Include="img\fish1.bmp" />
+    <EmbeddedResource Include="img\fish10.bmp" />
+    <EmbeddedResource Include="img\fish11.bmp" />
+    <EmbeddedResource Include="img\fish12.bmp" />
+    <EmbeddedResource Include="img\fish13.bmp" />
+    <EmbeddedResource Include="img\fish14.bmp" />
+    <EmbeddedResource Include="img\fish15.bmp" />
+    <EmbeddedResource Include="img\fish16.bmp" />
+    <EmbeddedResource Include="img\fish17.bmp" />
+    <EmbeddedResource Include="img\fish18.bmp" />
+    <EmbeddedResource Include="img\fish19.bmp" />
+    <EmbeddedResource Include="img\fish2.bmp" />
+    <EmbeddedResource Include="img\fish20.bmp" />
+    <EmbeddedResource Include="img\fish21.bmp" />
+    <EmbeddedResource Include="img\fish22.bmp" />
+    <EmbeddedResource Include="img\fish23.bmp" />
+    <EmbeddedResource Include="img\fish24.bmp" />
+    <EmbeddedResource Include="img\fish25.bmp" />
+    <EmbeddedResource Include="img\fish26.bmp" />
+    <EmbeddedResource Include="img\fish27.bmp" />
+    <EmbeddedResource Include="img\fish28.bmp" />
+    <EmbeddedResource Include="img\fish29.bmp" />
+    <EmbeddedResource Include="img\fish3.bmp" />
+    <EmbeddedResource Include="img\fish30.bmp" />
+    <EmbeddedResource Include="img\fish31.bmp" />
+    <EmbeddedResource Include="img\fish32.bmp" />
+    <EmbeddedResource Include="img\fish33.bmp" />
+    <EmbeddedResource Include="img\fish34.bmp" />
+    <EmbeddedResource Include="img\fish35.bmp" />
+    <EmbeddedResource Include="img\fish36.bmp" />
+    <EmbeddedResource Include="img\fish37.bmp" />
+    <EmbeddedResource Include="img\fish38.bmp" />
+    <EmbeddedResource Include="img\fish39.bmp" />
+    <EmbeddedResource Include="img\fish4.bmp" />
+    <EmbeddedResource Include="img\fish40.bmp" />
+    <EmbeddedResource Include="img\fish41.bmp" />
+    <EmbeddedResource Include="img\fish42.bmp" />
+    <EmbeddedResource Include="img\fish43.bmp" />
+    <EmbeddedResource Include="img\fish44.bmp" />
+    <EmbeddedResource Include="img\fish5.bmp" />
+    <EmbeddedResource Include="img\fish6.bmp" />
+    <EmbeddedResource Include="img\fish7.bmp" />
+    <EmbeddedResource Include="img\fish8.bmp" />
+    <EmbeddedResource Include="img\fish9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

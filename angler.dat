@@ -1,0 +1,102 @@
+#vessels
+#id,name,price,holdcap,shiphp,ac
+1,Wooden Log,0,15,4,0
+2,Rubber Tube,10,20,6,0
+3,Coracle,30,40,8,1
+4,Currach,65,75,32,2
+5,Inflatable Raft,120,180,40,2
+6,Handliner,350,200,48,4
+7,Dinghy,520,250,64,6
+8,Rigid Hull Inflatable,1750,380,96,10
+9,Sampan,2600,450,128,12
+10,Dhow,3800,500,144,16
+11,Junk,6600,650,160,18
+12,Squid Jigger,9000,800,192,22
+13,Troller,15500,1000,256,24
+14,Sternpicker,23000,1200,384,26
+15,Drum Seiner,30000,1400,448,30
+16,Gill Netter,32000,1500,512,32
+17,Purse Seiner,35000,1600,576,34
+18,Stern Trawler,68000,2000,704,40
+19,Outrigger Trawler,75000,2400,768,44
+20,Dredger,82000,2800,832,48
+21,Long Liner,87000,3200,896,50
+22,Atlantic Whaler,150000,4000,1024,54
+#end vessels
+#weapons
+#id,name,price,mindmg,maxdmg,weight,hitbonus
+1,Naked Fists,0,0,1,0,0
+2,Fillet Knife,10,0,2,0,0
+3,Wooden Oar,25,0,4,0,0
+4,Hand Net,35,0,6,0,0
+5,Frog Gig,40,1,8,0,0
+6,Trident,50,1,10,0,0
+7,Spin Cast Rod,60,1,12,0,0
+8,Composite Surf Rod,80,2,14,0,0
+9,Lobster Trap,95,2,18,0,0
+10,Boat Anchor,120,2,22,0,0
+11,Grappling Hook,140,3,24,0,0
+12,Fishing Crossbow,200,3,28,0,0
+13,Speargun,250,3,30,0,0
+14,Gill Net,420,4,32,0,0
+15,Seine,600,4,34,0,0
+16,Trawl,1200,4,36,0,0
+17,Harpoon,2500,5,40,0,0
+18,Gyrojet Rifle,4500,5,44,0,0
+19,Explosive Harpoon,11500,6,48,0,0
+20,Depth Charge Thrower,22000,6,56,0,0
+21,Anti-Submarine Mortar,38000,7,64,0,0
+#end weapons
+#fish
+#id,name,level,basehp,mindmg,maxdmg,ac,weight,value
+1,Diatom,1,1,0,0,0,0.1 ,0.01
+2,Heliomonad,1,1,0,0,0,0.1,0.01
+3,Sticholonche,1,1,0,0,0,0.1,0.01 
+4,Algae Bloom,2,2,0,1,0,1,0.06
+5,Slime Mat,3,4,0,1,1,1,0.04
+6,Bladder Wrack,3,4,0,1,1,1,0.05
+7,Driftwood,4,4,0,3,2,3,0.08
+8,Kelp,4,6,0,3,1,2,0.10
+9,Northern Krill,5,6,0,3,1,0.5,0.04
+10,Cocktail Shrimp,6,8,1,3,1,1,0.10
+11,Sea Anemone,6,16,1,4,2,2,0.12
+12,Tube Sponge,6,24,1,4,4,4,0.25
+13,Sea Cucumber,6,16,1,4,4,4,0.28
+14,Brittle Star,7,12,1,6,2,4,0.23
+15,Sea Star,7,16,1,6,4,6,0.25
+16,Sea Urchin,7,16,1,6,4,6,0.30
+17,Demosponge,8,24,1,12,6,12,0.45
+18,Zyzzyzus,8,18,1,12,6,8,0.50
+19,Arctic Coral,8,32,1,12,8,24,0.75
+20,Medical Waste Pile,9,32,2,16,12,32,0.05
+21,Seapony,9,32,1,12,8,8,0.10
+22,Moon Snail,9,36,1,14,10,12,0.35
+23,Arctic Cod,10,24,1,16,6,1,0.12
+24,Seahorse,11,32,2,16,6,4,0.35
+25,Pompeii Worm,11,48,2,16,12,12,0.32
+26,Blue Crab,12,48,2,18,16,8,0.75
+27,Sea Nettle,13,32,3,20,8,8,0.42
+28,American Lobster,14,48,4,24,20,20,1.75
+29,Sea Turtle,14,56,3,24,24,40,1.00
+30,Sooty Tern,15,32,2,16,16,4,1.02
+31,Northern Fulmar,15,40,2,16,16,6,1.08
+32,Seagull,16,40,2,24,16,12,1.25
+33,King Penquin,16,48,2,24,20,24,1.50
+34,Sea Otter,17,64,4,28,24,64,1.79
+35,Nose Dolphin,17,64,3,32,24,64,2.50
+36,Hairy Otter,18,92,4,32,28,32,2.80
+37,Narwal,19,128,4,40,32,64,4.02
+38,Sawfish,20,128,6,40,32,80,4.51
+39,Giant Squid,21,160,6,48,32,250,6.72
+40,Nurse Shark,21,128,8,48,40,200,6.81
+41,Anvilhead Shark,22,192,6,54,44,260,6.58
+42,Octosquid,23,192,8,56,48,320,12.42
+43,Colossal Squid,24,256,16,64,52,480,19.76
+44,Sperm Whale,25,384,32,128,64,650,32.50
+#end fish
+#Ghost Frigate
+#Tentacruel,
+#Chowder Fist,
+#Kraken,
+#Leviathan,
+#Cthulhu,
