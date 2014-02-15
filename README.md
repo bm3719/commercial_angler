@@ -1,9 +1,9 @@
 Commercial Angler
 =================
 
-  Nobly, nobly Cape Saint Vincent to the North-west died away;
-  Sunset ran, one glorious blood-red, reeking into Cadiz Bay;
-  Bluish 'mid the burning water, full in face Trafalgar lay;
+    Nobly, nobly Cape Saint Vincent to the North-west died away;
+    Sunset ran, one glorious blood-red, reeking into Cadiz Bay;
+    Bluish 'mid the burning water, full in face Trafalgar lay;
 
                                  Home Thoughts, from the Sea - Robert Browning 
 
@@ -31,6 +31,7 @@ Player Guide
 ============
 
 Getting Started
+---------------
 
 When you start a new game, you'll only have a wooden log to sail in and your 
 bare hands for which to assault fish. As you collect and sell catch, you'll be 
@@ -50,6 +51,7 @@ For the chronically impatient, the `File | Quick Start' menu option will start
 you off with some money and decent equipment.
 
 Seaport Services
+----------------
 
 Should your ship sustain serious damage or your cargo hold be full of 
 valuable fish, you should head back to port. Once in port, you will patch up  
@@ -61,6 +63,7 @@ your ship or weapon, receiving credit on your purchase by exchanging your
 current equipment during the transaction.
 
 Open-Ended
+----------
 
 Like most simulations, Commercial Angler doesn't have any pre-defined goals. 
 Play all day and night nonstop to see how quickly you can get the best ship 
