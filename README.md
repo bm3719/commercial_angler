@@ -1,5 +1,5 @@
 Commercial Angler
------------------
+=================
 
   Nobly, nobly Cape Saint Vincent to the North-west died away;
   Sunset ran, one glorious blood-red, reeking into Cadiz Bay;
@@ -8,7 +8,7 @@ Commercial Angler
                                  Home Thoughts, from the Sea - Robert Browning 
 
 Overview
---------
+========
 
 Commercial Angler combines the excitement of deep sea fishing with the proud 
 achievement of successful entrepreneurship in the commercial fishing 
@@ -28,7 +28,7 @@ survival as they are a part of your job. The open sea is an unforgiving
 environment, and its inhabitants battle for mortal stakes. 
 
 Player Guide
-------------
+============
 
 Getting Started
 
@@ -72,12 +72,12 @@ introspective mind such as yours. As a fan of maritime profit-making, you're
 probably smart enough to come up with plenty of your own ideas. 
 
 Revision History
-----------------
+================
 
 Version 0.1: Initial release.
 
 Notes
------
+=====
 
 Forthcoming features: Loading and saving your game, custom character naming.
 
@@ -86,13 +86,17 @@ player levels and stats, end-game bosses, ability to eat fish, drop tables
 besides just corpses, confirmation beeps when buying stuff, uploading memorial 
 files to a web-based CGI script, and maybe a rewrite in a different language.
 
+For those who can't figure it out: Yes, this isn't a serious game. It was just
+tossed together in a couple days to refresh my C# memory prior to a job
+search.  I'll try to turn it into something actually fun someday, maybe.
+
 Credits
--------
+=======
 
 Source and graphics © 2007 Bruce C. Miller - bm3719@gmail.com 
 
 Licensing
----------
+=========
 
 Source code released under the GNU Public License Version 2. See included 
 file `COPYING' for license or http://www.gnu.org/ for details. 
