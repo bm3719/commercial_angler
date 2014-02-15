@@ -54,7 +54,7 @@ Seaport Services
 ----------------
 
 Should your ship sustain serious damage or your cargo hold be full of 
-valuable fish, you should head back to port. Once in port, you will patch up  
+valuable fish, you should head back to port. Once in port, you will patch up 
 any damage to your ship automatically. Afterwards, you can visit the Hyannis 
 Cannery to exchange the fruits of your labor for US currency. Once you've 
 collected enough, you can visit the Hyannis Shipyard where you can reinvest 
@@ -90,8 +90,8 @@ besides just corpses, confirmation beeps when buying stuff, uploading memorial
 files to a web-based CGI script, and maybe a rewrite in a different language.
 
 For those who can't figure it out: Yes, this isn't a serious game. It was just
-tossed together in a couple days to refresh my C# memory prior to a job
-search.  I'll try to turn it into something actually fun someday, maybe.
+tossed together in a couple days to refresh my C# memory prior to a starting a
+new job.  I'll try to turn it into something actually fun someday, maybe.
 
 Credits
 =======
@@ -105,4 +105,4 @@ Source code released under the GNU Public License Version 2. See included
 file `COPYING' for license or http://www.gnu.org/ for details. 
 
 Bug reports relating to this distribution should be sent to
-bm3719@gmail.com.  
+bm3719@gmail.com.
