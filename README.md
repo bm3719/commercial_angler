@@ -27,6 +27,15 @@ mastery of fishing and sailing skills are as much key to your continued
 survival as they are a part of your job. The open sea is an unforgiving 
 environment, and its inhabitants battle for mortal stakes. 
 
+Screenshots
+===========
+
+<img src="http://macroexpand.com/~bm3719/img/in_port.jpg" align="center">
+<center>Back in port after a long day at sea.</center>
+
+<img src="http://macroexpand.com/~bm3719/img/in_combat.jpg" align="center">
+<center>In the midst of bitter combat.</center>
+
 Player Guide
 ============
 
