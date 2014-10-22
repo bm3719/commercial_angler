@@ -31,11 +31,14 @@ Screenshots
 ===========
 
 <img src="http://macroexpand.com/~bm3719/img/in_port.jpg">
+
 Back in port after a long day at sea.
 
 
 <img src="http://macroexpand.com/~bm3719/img/in_combat.jpg">
+
 In the midst of bitter combat.
+
 
 Player Guide
 ============
